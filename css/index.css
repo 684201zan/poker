@@ -1,0 +1,273 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:0;
+
+}
+a{
+	text-decoration:none;
+}
+.dachangjing{
+	width:100%;
+	background:url(../image/beijing.jpg);
+	background-size:100% 100%;
+	overflow:hidden;
+}
+.changjing{
+	display:none;
+	width:1000px;
+	min-height:600px;
+	margin:10px auto;
+	position:relative;
+	}
+.pok{
+	width:120px;
+	height:168px;
+	float:left;
+	border:1px solid black;
+	background-size:100%;
+	position:absolute;
+	top:0;
+	left:440px;
+	opacity:0;
+}
+.mateLeft,.mateRight{
+	width:120px;
+	height:40px;
+	background:#999;
+	position:absolute;
+	z-index:10;
+	line-height:40px;
+	text-align:center;
+	opacity:0.5;
+	color:yellow;
+}
+.mateLeft{
+	top:420px;
+	left:440px;
+}
+.mateRight{
+	top:500px;
+	left:440px;
+}
+.button{
+  width:180px;
+  height:30px;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:30px;
+  text-align:center;
+  color:#fff;
+  margin-right:20px;
+  margin-top:20px;
+}
+.button .defen{
+	width:120px;
+	height:30px;
+	background:rgb(70,134,214);
+	float:right;
+
+}
+.game{
+	width:50px;
+	height:50px;
+	position:absolute;
+    top:80px;
+    left:30px;
+    font-size:14px;
+    line-height:20px;
+    text-align:center;
+    color:red;
+    background-image:url(../image/anniu.jpg);
+    background-size:120% 120%;
+    background-position:center center;
+    border-radius:50%;
+}
+.start{
+	width:60px;
+	height:60px;
+	position:absolute;
+    top:170px;
+    left:160px;
+    font-size:16px;
+    line-height:25px;
+    text-align:center;
+    color:red;
+    border-radius:50%;
+    background-image:url(../image/anniu.jpg);
+    background-size:120% 120%;
+    background-position:center center;
+}
+.help{
+	width:50px;
+	height:50px;
+	position:absolute;
+    top:80px;
+    left:300px;
+    font-size:14px;
+    line-height:20px;
+    text-align:center;
+    color:red;
+    border-radius:50%;
+    background-image:url(../image/anniu.jpg);
+    background-size:120% 120%;
+    background-position:center center;
+}
+.tuichu{
+	width:40px;
+	height:40px;
+	position:absolute;
+    top:30px;
+    left:160px;
+    line-height:18px;
+    text-align:center;
+    color:red;
+    border-radius:50%;
+    font-size:10px;
+    background-image:url(../image/anniu.jpg);
+    background-size:120% 120%;
+    background-position:center center;
+}
+.youxi{
+	width:80px;
+	height:80px;
+	position:absolute;
+    top:80px;
+    left:150px;
+    line-height:35px;
+    text-align:center;
+    color:#000;
+    border-radius:50%;
+    background-image:url(../image/youxi.jpg);
+    background-size:140% 140%;
+    background-position:-2px -3px;
+}
+.Time{
+  width:190px;
+  height:30px;
+  position:absolute;
+  top:0;
+  right:200px;
+  line-height:30px;
+  text-align:center;
+  color:#fff;
+  margin-top:20px;
+}
+.Time .aa{
+	width:120px;
+	height:30px;
+	background:rgb(70,134,214);
+	float:right;
+}
+
+.tishi{
+	width:200px;
+	height:90px;
+	position:absolute;
+	bottom:-100px;
+	left:10px;
+	background-color:#fff;
+	border-radius:8px;
+	transition:bottom .8s ease;
+	overflow:hidden;
+}
+.bangzhu{
+	position:absolute;
+	bottom:-120px;
+	left:10px;
+	width:200px;
+	height:120px;
+	background-color:#fff;
+	border-radius:8px;
+	transition:bottom .8s ease;
+}
+.shengli{
+    display:none;
+	width:330px;
+	height:190px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	background-image:url(../image/tishi.png);
+	background-repeat:no-repeat;
+	z-index:10;
+	color:yellow;
+}
+.shenglik{
+    width:318px;
+	height:180px;
+	background-color:rgba(70,134,214,0.4);
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	z-index:11;
+	border-radius:10px;
+}
+.deletes{
+	width:30px;
+	height:20px;
+	float:right;
+	margin-right:9px; 
+	margin-top:9px; 
+}
+.titles{
+	line-height:40px;
+	text-align:center;
+
+}
+.neirong{
+	line-height:150px;
+	text-align:center;
+}
+.active{
+    display:block;
+	bottom:20px;
+}
+.cuo{
+	width:15px;
+	height:15px;
+	margin-top:10px;
+	margin-right:10px;
+	float:right;
+	border:1px solid #fff;
+	position:relative;
+	}
+.cuohao{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+.tilte{
+	margin-top:20px;
+	margin-left:5px;
+	font-size:16px;
+	color:blue;
+  }
+.tiltes{
+	margin-top:5px;
+	margin-left:5px;
+	font-size:16px;
+  }
+
+
+
+.tuoyuan{
+	width:300px;
+	height:150px;
+	border-radius:50%;
+	border:1px solid red;
+	position:absolute;
+	top:50px;
+	left:40px;
+}
